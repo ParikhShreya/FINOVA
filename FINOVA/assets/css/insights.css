@@ -1,0 +1,86 @@
+:root {
+    --bg-color: #f8fafc;
+    --border: #e2e8f0;
+    --blue: #3b82f6;
+    --purple: #8b5cf6;
+    --text-main: #1e293b;
+    --text-sub: #64748b;
+}
+
+body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-main); margin: 0; }
+.dashboard-wrapper { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+
+.page-header h1 { font-size: 1.8rem; margin-bottom: 5px; }
+.page-header p { color: var(--text-sub); margin-bottom: 30px; }
+
+/* Insight Cards matching image_d1c8a5 */
+.insight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 40px; }
+.insight-card { 
+    display: flex; gap: 15px; padding: 20px; border-radius: 12px; border: 1px solid var(--border);
+    background: white; position: relative;
+}
+.blue-tint { background: #eff6ff; border-color: #bfdbfe; }
+.green-tint { background: #f0fdf4; border-color: #bbf7d0; }
+
+.badge { 
+    font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; 
+    position: absolute; bottom: 15px; right: 15px;
+}
+.high-priority { background: #2563eb; color: white; }
+.excellent { background: #16a34a; color: white; }
+
+/* Charts Layout */
+.charts-main-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+.card { background: white; padding: 24px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.chart-container h3 { font-size: 1rem; margin-top: 0; margin-bottom: 20px; }
+
+/* Donut box centering */
+.donut-box { height: 250px; display: flex; justify-content: center; }
+
+.analysis-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.badge-saving {
+    background: #f0fdf4;
+    color: #16a34a;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.split-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.stat-box .val {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.divider {
+    width: 1px;
+    height: 50px;
+    background: #e2e8f0;
+}
+
+.suggestion-box {
+    background: #fff7ed;
+    border-left: 4px solid #f97316;
+    padding: 12px 16px;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 0.85rem;
+}
