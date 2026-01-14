@@ -1,4 +1,4 @@
-# Finova Ultimate Pro
+#Finova Ultimate Pro
 
 **Finova Ultimate Pro** is a smart fintech web application designed to help users manage their finances effortlessly. It provides AI-driven insights, budget tracking, and seamless integration with bank statements to give users a complete view of their financial health.  
 
